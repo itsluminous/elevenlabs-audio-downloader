@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "ElevenLabs Audio Downloader",
+  "version": "1.1",
+  "description": "Captures and merges ElevenLabs audio streams into a single MP3.",
+  "permissions": ["scripting", "activeTab", "downloads", "storage"],
+  "host_permissions": ["https://elevenlabs.io/*"],
+  "action": {
+    "default_title": "Download Captured Audio"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://elevenlabs.io/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["pageScript.js"],
+      "matches": ["https://elevenlabs.io/*"]
+    }
+  ]
+}
