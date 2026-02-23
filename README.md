@@ -1,4 +1,4 @@
-## ElevenLabs Stream Capturer (Manifest V3)
+## ElevenLabs Stream Capturer
 
 A lightweight Chrome Extension that intercepts, buffers, and merges real-time audio streams from ElevenLabs.io into a single, high-quality MP3 file. No need to login now.
 
@@ -35,7 +35,7 @@ A lightweight Chrome Extension that intercepts, buffers, and merges real-time au
 
 ### Usage
 
-1. Navigate to [suspicious link removed].
+1. Navigate to elevenlabs website.
 2. Input your text and click **Generate**.
 3. **Watch the Badge:**
 * **Blue + Number:** Capturing in progress...
@@ -70,4 +70,3 @@ The extension navigates the "Isolated World" security model of Chrome by using a
 * `content.js`: Bridge between the page and extension.
 * `background.js`: Storage management and MP3 assembly.
 
-**Would you like me to add a visual "Reset" button to the extension popup as well, so you can cancel a capture without downloading it?**
