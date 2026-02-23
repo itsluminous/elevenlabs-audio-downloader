@@ -1,8 +1,6 @@
-That is an important distinction for the user to understand. I have updated the README to include a **"Download Behavior"** section and a **"Pro-Tips"** section to clarify this.
-
 ## ElevenLabs Stream Capturer (Manifest V3)
 
-A lightweight Chrome Extension that intercepts, buffers, and merges real-time audio streams from ElevenLabs.io into a single, high-quality MP3 file.
+A lightweight Chrome Extension that intercepts, buffers, and merges real-time audio streams from ElevenLabs.io into a single, high-quality MP3 file. No need to login now.
 
 ---
 
